@@ -1,0 +1,202 @@
+/* General Styles */
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vmax;
+    overflow-x: hidden;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap:30%;
+}
+
+.header-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.header-logo span {
+    color: black;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.header-link:hover {
+    color: orange;
+}
+
+.sign-up-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background: darkorange;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    padding: 3rem 5%;
+    background: linear-gradient(17deg, #ffffff 31%, #fed396 100%);
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.order-btn {
+    margin-top: 1rem;
+    background: orange;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background: darkorange;
+}
+
+/* Services Section */
+.services {
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+.services span {
+    color: orange;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service {
+    width: 30%;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+/* Reviews Section */
+.reviews {
+    text-align: center;
+    padding: 3rem 5%;
+    background: #FFE8C780;
+}
+
+.reviews span {
+    color: orange;
+}
+
+.review {
+    display: inline-block;
+    width: 30%;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+.reviewer-photo {
+    width: 60px;
+    border-radius: 10%;
+    margin-left: -400px;
+    margin-top: -300px;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 3rem 5%;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image {
+    width: 100px;
+}
+
+.subscribe {
+    background-color: #FFF1DE;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.subscribe span {
+    color: orange;
+
+}
+
+/* Footer */
+.footer {
+    background: white;
+    color: black;
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer a:hover {
+    color: orange;
+}
